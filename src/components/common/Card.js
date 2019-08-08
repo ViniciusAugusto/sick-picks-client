@@ -20,7 +20,7 @@ export const Card = props => {
     <div className="card-container">
       <div className="card-content">
         <div className="card-header">
-          <h4>{epiTitle}</h4>
+          <p>{epiTitle}</p>
           <p>{epiDate}</p>
         </div>
         {epiEntries.map(entry => (
