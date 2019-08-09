@@ -25,20 +25,26 @@
 
   .card-entry {
     margin-bottom: 5px;
+    font-size: 1.3rem;
+    line-height: 30px;
+
+    .owner {
+      font-weight: bold;
+
+
+      &.wes {
+        color: #eccf18;
+      }
+
+      &.scott {
+        color: #663399;
+      }
+
+      &.other {
+        color: #f63925;
+      }
+    }
   }
 }
 
-.wes {
-  font-weight: bold;
-  color: #eccf18;
-}
 
-.scott {
-  font-weight: bold;
-  color: #663399;
-}
-
-.other {
-  font-weight: bold;
-  color: #f63925;
-}
