@@ -20,8 +20,8 @@ export const Card = props => {
     <div className="card-container">
       <div className="card-content">
         <div className="card-header">
-          <p>{epiTitle}</p>
-          <p>{epiDate}</p>
+          <p className="title">{epiTitle}</p>
+          <p className="date">{epiDate}</p>
         </div>
         {epiEntries.map(entry => (
           <div className="card-entry" key={uniqid()}>

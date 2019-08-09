@@ -12,9 +12,13 @@
   .card-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 
-    > p {
+    .title {
+      justify-self: start;
+    }
+
+    .date {
       justify-self: end;
     }
   }
