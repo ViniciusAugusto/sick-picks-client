@@ -28,7 +28,7 @@ export const Card = props => {
             <br />
           </div>
         ))}
-        <div className="card-header">
+        <div className="card-footer">
           <p className="title">{epiTitle}</p>
           <p className="date">{epiDate}</p>
         </div>

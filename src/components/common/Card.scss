@@ -6,31 +6,16 @@
   border-radius: 0.3rem;
 
   .card-content {
-    padding: 15px;
-  }
-
-  .card-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 1.4rem;
-
-    .title {
-      justify-self: start;
-    }
-
-    .date {
-      justify-self: end;
-    }
+    padding: 20px;
   }
 
   .card-entry {
-    margin-bottom: 5px;
-    font-size: 1.3rem;
+    // margin-bottom: 5px;
+    font-size: 1.5rem;
     line-height: 30px;
 
     .owner {
       font-weight: bold;
-
 
       &.wes {
         color: #eccf18;
@@ -45,6 +30,19 @@
       }
     }
   }
+
+  .card-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.2rem;
+
+    .title {
+      justify-self: start;
+      margin: 0;
+    }
+
+    .date {
+      justify-self: end;
+    }
+  }
 }
-
-
