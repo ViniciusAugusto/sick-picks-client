@@ -21,7 +21,7 @@ export const Card = props => {
       <div className="card-content">
         {epiEntries.map(entry => (
           <div className="card-entry" key={uniqid()}>
-            {entry.owner && <span className={getOwnerClassName(entry.owner)}>{entry.owner}: </span>}
+            {entry.owner && <span className={getOwnerClassName(entry.owner)}>{entry.owner} </span>}
             <a href={entry.link} target="_blank" rel="noopener noreferrer">
               {entry.text}
             </a>

@@ -10,12 +10,13 @@
   }
 
   .card-entry {
-    // margin-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 1.5rem;
     line-height: 30px;
 
     .owner {
       font-weight: bold;
+      font-size: 1.0rem;
 
       &.wes {
         color: #eccf18;
@@ -35,6 +36,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 1.2rem;
+    font-weight: 550;
 
     .title {
       justify-self: start;
